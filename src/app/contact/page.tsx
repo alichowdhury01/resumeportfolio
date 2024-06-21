@@ -3,6 +3,12 @@ import { Contact } from "@/components/Contact";
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Paragraph } from "@/components/Paragraph";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Contact | Ali"
+};
+
 const contact = () => {
   return (
     <Container>

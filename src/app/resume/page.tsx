@@ -3,6 +3,11 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { WorkHistory } from "@/components/WorkHistory";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Resume | Ali"
+};
 
 export default function Resume() {
   return (

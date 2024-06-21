@@ -6,6 +6,11 @@ import { Paragraph } from '@/components/Paragraph';
 import { Highlight } from "@/components/Highlight";
 import { Products } from '@/components/Products';
 import { TechStack } from '@/components/TechStack';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Home | Ali"
+};
 
 export default function Home() {
   return (
