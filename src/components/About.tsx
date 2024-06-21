@@ -20,7 +20,7 @@ export const About = () => {
     {
       src: '/images/coding.jpg',
       alt: 'coding',
-    }
+    },
   ];
   return (
     <div>
@@ -53,25 +53,24 @@ export const About = () => {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m Ali Chowdhury - a passionate developer, an
-          epicurean, Electric Vehicle and new tech enthusiast, a travel
-          aficionado and a connoisseur of awesome design. Welcome to my corner
-          of the digital world!
+          Hey there, I'm Ali Chowdhury - a passionate developer, an epicurean,
+          Electric Vehicle and new tech enthusiast, a travel aficionado and a
+          connoisseur of awesome design. Welcome to my corner of the digital
+          world!
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+          Since the early days of my journey, I've been captivated by the art of
+          crafting exceptional digital experiences. As a developer, I thrive on
+          turning lines of code into functional and elegant solutions. My goal
+          is to not just create software, but to build digital marvels that
+          seamlessly merge form and function.
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. I also have a deep love
-          for food, travel, EVs, and new tech. When I&apos;m not busy conjuring
-          up new projects, you&apos;ll find me exploring the world, trying out
-          new cuisines, or geeking out over the latest gadgets and Electric
-          Vehicles.
+          But my journey doesn't stop at coding. I also have a deep love for
+          food, travel, EVs, and new tech. When I'm not busy conjuring up new
+          projects, you'll find me exploring the world, trying out new cuisines,
+          or geeking out over the latest gadgets and Electric Vehicles.
         </Paragraph>
         <Paragraph className=" mt-4">
           What sets me apart is my unwavering appreciation for design. I believe
@@ -81,9 +80,9 @@ export const About = () => {
         </Paragraph>
         <Paragraph className=" mt-4">
           Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
+          creations with you. Whether you're a fellow developer seeking
           solutions, a design enthusiast looking for inspiration, or just
-          someone looking to connect, I&apos;m excited to have you here.
+          someone looking to connect, I'm excited to have you here.
         </Paragraph>
         <Paragraph className=" mt-4">
           Join me on this journey of bytes and narratives, logic and creativity,
@@ -92,10 +91,10 @@ export const About = () => {
           of thoughtful design.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+          Thank you for being here, and I can't wait to embark on this adventure
+          with you.
         </Paragraph>
       </div>
     </div>
   );
-}
+};

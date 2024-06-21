@@ -17,7 +17,7 @@ export default function Projects() {
       <span className="text-4xl">⚡</span>
       <Heading className="font-black mb-10 text-zinc-600">
         {" "}
-        What I&apos;ve been working on
+        What I've been working on
       </Heading>
 
       <Products />
