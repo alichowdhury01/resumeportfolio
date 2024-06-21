@@ -24,8 +24,8 @@ export default function about() {
   ];
   return (
     <Container>
-      <span className="text-4xl">💬</span>
-      <Heading className="font-black">About Me</Heading>
+      <span className="text-4xl ">💬</span>
+      <Heading className="font-black text-zinc-600">About Me</Heading>
       <About />
     </Container>
   );

@@ -8,8 +8,8 @@ export default function Resume() {
   return (
     <Container>
       <span className="text-4xl">💼</span>
-      <Heading className="font-black">Work History</Heading>
-      <Paragraph className="max-w-xl mt-4">
+      <Heading className="font-black text-zinc-600">Work History</Heading>
+      <Paragraph className="max-w-xl mt-4 text-neutral-500">
         I&apos;m a full-stack developer that loves{" "}
         <Highlight>building products</Highlight> and web apps that can impact
         millions of lives

@@ -13,7 +13,7 @@ export const WorkHistory = () => {
           key={`timeline-${index}`}
         >
           <div>
-            <Paragraph className="w-40">{item.date}</Paragraph>
+            <Paragraph className="w-40 text-neutral-500">{item.date}</Paragraph>
           </div>
           <div>
             <Heading
@@ -22,16 +22,16 @@ export const WorkHistory = () => {
             >
               {item.company}
             </Heading>
-            <Paragraph className="text-base md:text-base lg:text-base font-semibold">
+            <Paragraph className="text-base md:text-base lg:text-base font-semibold text-neutral-500">
               {item.title}
             </Paragraph>
-            <Paragraph className="text-sm md:text-sm lg:text-sm mb-4">
+            <Paragraph className="text-sm md:text-sm lg:text-sm mb-4 text-neutral-500">
               {item.location}
             </Paragraph>
 
             {item.responsibilities.map((responsibility) => (
               <div key={responsibility}>
-                <Paragraph className="flex space-x-1 items-start my-2">
+                <Paragraph className="flex space-x-1 items-start my-2 text-neutral-500">
                   {responsibility}
                 </Paragraph>
               </div>
