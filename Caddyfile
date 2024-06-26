@@ -1,0 +1,10 @@
+www.alichowdhury.ca {
+    reverse_proxy localhost:3000 {
+        header {
+            Access-Control-Allow-Origin "https://www.alichowdhury.ca"
+            Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+            Access-Control-Allow-Headers "Content-Type, Authorization"
+            Access-Control-Allow-Credentials true
+        }
+    }
+}

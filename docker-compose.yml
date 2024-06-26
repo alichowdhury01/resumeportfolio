@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  resumeportfolio:
+    container_name: resumeportfolio
+    restart: unless-stopped
+    build:
+      context: ./
+    ports:
+      - '3000:3000'
+
+  caddy:
+    image: caddy:2.4.3
+    container_name: caddy-service
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
