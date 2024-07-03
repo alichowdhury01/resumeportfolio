@@ -1,5 +1,5 @@
 www.alichowdhury.ca {
-    reverse_proxy localhost:3000
+    reverse_proxy resumeportfolio:3000
     header Access-Control-Allow-Origin "https://www.alichowdhury.ca"
     header Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
     header Access-Control-Allow-Headers "Content-Type, Authorization"
