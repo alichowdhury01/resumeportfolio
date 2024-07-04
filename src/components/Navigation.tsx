@@ -1,3 +1,5 @@
+"use client";
+
 import { navlinks } from '@/constants/navlinks';
 import { Navlink } from '@/types/navlink';
 
@@ -8,7 +10,17 @@ import { twMerge } from 'tailwind-merge';
 import { Heading } from './Heading';
 import { socials } from '@/constants/socials';
 
-const Navigation = () => {
+const isMobile = () => {
+  if (typeof window === "undefined") return false;
+  const width = window.innerWidth;
+  return width <= 1024;
+};
+
+const Navigation = ({
+  setOpen,
+}: {
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
   const pathnames = usePathname();
 
   const isActive = (href: string) => pathnames === href;
@@ -19,6 +31,7 @@ const Navigation = () => {
         <Link
           key={link.href}
           href={link.href}
+          onClick={() => isMobile() && setOpen(false)}
           className={twMerge(
             'text-secondary hover:text-primary transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm',
             isActive(link.href) && 'bg-white shadow-lg text-primary'
